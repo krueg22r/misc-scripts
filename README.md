@@ -14,6 +14,9 @@ LammpsAnalysis/naphDimTraj.py includes a script to calculate three order paramet
 for a bridged naphthalene dimer based on a LAMMPS molecular dynamics trajectory. 
 Each is plotted in a histogram, which is saved in a pdf file. 
 
+LammpsAnalysis/plotThermo.ipynb is a jupyter notebook demonstrating how to 
+make a quick plot of important thermodynamic quantities from a LAMMPS MD run. 
+
 lammpsFileMerge.py merges two LAMMPS format data files (which have info about 
 molecule coordsinates, bonds, etc). The online LigParGen server can produce 
 files for a single molecule, but since I work with dimers, I needed this script
