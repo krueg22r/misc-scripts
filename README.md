@@ -18,7 +18,7 @@ LammpsAnalysis/plotThermo.ipynb is a jupyter notebook demonstrating how to
 make a quick plot of important thermodynamic quantities from a LAMMPS MD run. 
 
 lammpsFileMerge.py merges two LAMMPS format data files (which have info about 
-molecule coordsinates, bonds, etc). The online LigParGen server can produce 
+molecule coordinates, bonds, etc). The online LigParGen server can produce 
 files for a single molecule, but since I work with dimers, I needed this script
 to finish the job. 
 
